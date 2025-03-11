@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.plane {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.plane img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.plane h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.plane p {
+    font-size: 1em;
+    color: #666666;
+}
