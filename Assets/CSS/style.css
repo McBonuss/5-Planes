@@ -30,7 +30,8 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('assets\images\Paper-flock.webp')no-repeat center center;
+    background-image: url('assets\images\Paper-flock.webp');
+    background-color: lightblue;
     background-size: cover;
     z-index: -1;
 }
@@ -43,6 +44,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+
 }
 
 .box {
@@ -53,6 +55,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 footer {
