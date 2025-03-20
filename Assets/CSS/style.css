@@ -20,9 +20,11 @@ header {
 nav {
     display: flex;
     justify-content: center;
+
     gap: 20px;
     background-color: white;
     padding: 10px;
+    min-height: 100px;
     width: 100%;
 }
 
