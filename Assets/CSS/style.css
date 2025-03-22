@@ -25,7 +25,7 @@ nav {
     gap: 20px;
     background-color: white;
     padding: 10px;
-    min-height: 100px;
+    min-height: 50px;
     width: 100%;
 }
 
@@ -41,6 +41,9 @@ nav {
     background-size: cover;
     z-index: -1;
 }
+#science-list {
+    list-style-type: none;
+  }
 /* Carousel container */
 .carousel {
     display: flex;
