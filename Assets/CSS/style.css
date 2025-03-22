@@ -63,13 +63,13 @@ nav {
 /* Main container */
 .container {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 20px 0;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     flex: 1; /* Allow the main container to grow and fill the available space */
 }
 
@@ -86,16 +86,29 @@ nav {
     box-sizing: border-box;
     overflow: hidden;
 }
+/* Papar plane gallery thumnail hover enlargement */
+.thumbnail:hover {
+    transform: scale(2.0);
+    transition: transform 0.5s;
+}
 
 /* Footer styling */
 footer {
+    display: flex;
     background: #ddd;
     position: fixed;
     bottom: 0;
     padding: 10px;
     width: 100%;
     text-align: center;
-    
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
 }
 
 /* Media queries for different screen sizes */
