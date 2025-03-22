@@ -21,7 +21,6 @@ header {
 nav {
     display: flex;
     justify-content: center;
-
     gap: 20px;
     background-color: white;
     padding: 10px;
@@ -31,19 +30,21 @@ nav {
 
 /* Background container */
 .bg-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: url('../images/Background-blueprint1.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     z-index: -1;
 }
+/* Styling for the sscience of flight */
 #science-list {
     list-style-type: none;
-  }
+}
+
 /* Carousel container */
 .carousel {
     display: flex;
@@ -70,7 +71,8 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
-    flex: 1; /* Allow the main container to grow and fill the available space */
+    flex: 1;
+    /* Allow the main container to grow and fill the available space */
 }
 
 /* Box styling */
@@ -79,13 +81,16 @@ nav {
     background-color: lightblue;
     margin: 10px 0;
     display: flex;
-    flex-direction: column; /* aligns items in a column  This was the only way I could think of th get the headings to sit above the core text*/
-    justify-content: flex-start; /* aligns all items in the box */
+    flex-direction: column;
+    /* aligns items in a column  This was the only way I could think of th get the headings to sit above the core text*/
+    justify-content: flex-start;
+    /* aligns all items in the box */
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     overflow: hidden;
 }
+
 /* Papar plane gallery thumnail hover enlargement */
 .thumbnail:hover {
     transform: scale(2.0);
@@ -104,6 +109,7 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks {
     display: flex;
     justify-content: center;
