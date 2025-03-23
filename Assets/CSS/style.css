@@ -21,18 +21,29 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #007bff;
-    padding: 10px;
+    background-color: #0056b3; /* Darker blue for better readability */
+    padding: 15px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visibility */
 }
 
 nav a {
-    color: white;
+    color: #ffffff; /* White text for contrast */
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    padding: 5px 10px; /* Adds padding around links */
+    border-radius: 5px; /* Adds rounded corners for a modern look */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
 }
 
 nav a.active {
-    text-decoration: underline;
+    background-color: #007bff; /* Highlight active link with a lighter blue */
+    color: #ffffff; /* Ensure text remains white */
+}
+
+nav a:hover {
+    background-color: #004085; /* Darker blue on hover */
+    color: #ffffff; /* Ensure text remains white */
 }
 
 /* Background container */
