@@ -64,8 +64,9 @@ nav {
 /* Main container */
 .container {
     display: flex;
-    width: 100%;
-    margin: 20px 0;
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 10px 0;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
