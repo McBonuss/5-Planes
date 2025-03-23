@@ -140,7 +140,7 @@ footer {
     background: #ddd;
     position: fixed;
     bottom: 0;
-    padding: 10px;
+    padding: 0% 0;
     width: 100%;
     text-align: center;
     justify-content: space-evenly;
