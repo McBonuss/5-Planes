@@ -40,7 +40,7 @@ nav {
     background-size: contain;
     z-index: -1;
 }
-/* Styling for the sscience of flight */
+/* Styling for the science of flight */
 #science-list {
     list-style-type: none;
 }
@@ -72,7 +72,6 @@ nav {
     justify-content: center;
     padding: 10px;
     flex: 1;
-    /* Allow the main container to grow and fill the available space */
 }
 
 /* Box styling */
@@ -81,20 +80,46 @@ nav {
     background-color: lightblue;
     margin: 10px 0;
     display: flex;
+    max-height: fit-content;
     flex-direction: column;
     /* aligns items in a column  This was the only way I could think of th get the headings to sit above the core text*/
     justify-content: flex-start;
     /* aligns all items in the box */
     align-items: flex-start;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow: hidden;
+    
+}
+/* Un-constrained Box styling */
+.box-unconstrained {
+    width: 100%;
+    background-color: lightblue;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    /* aligns items in a column  This was the only way I could think of to get the headings to sit above the core text*/
+    justify-content: flex-start;
+    /* aligns all items in the box */
+    align-items: flex-start;
     padding: 10px;
     box-sizing: border-box;
-    overflow: hidden;
+    
+}
+/* Paper plane gallery thumbnail hover enlargement this doenst quite work and should enlarge over the .box */
+.thumbnail {
+    display: inline-block; 
+    transition: transform 0.5s ease; 
 }
 
-/* Papar plane gallery thumnail hover enlargement */
 .thumbnail:hover {
-    transform: scale(2.0);
-    transition: transform 0.5s;
+    transform: scale(1.5); 
+    z-index: 5; 
+    position: relative;
 }
 
 /* Footer styling */
@@ -109,7 +134,7 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
+/* Social network styling taken from Just Running */
 #social-networks {
     display: flex;
     justify-content: center;
