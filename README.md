@@ -4,7 +4,7 @@
 ---
 
 ### Project Description
-5 Planes is a static front-end website dedicated to the art of paper airplanes. Whether you're a teacher, hobbyist, or enthusiast, this project provides resources, tutorials, and a platform to connect with others who share a passion for paper airplanes.
+5 Planes is a static front-end website dedicated to the art of paper airplanes. The site acts as an initial launchpad into the socials and how to make paper air planes.  
 
 ---
 
