@@ -91,11 +91,11 @@ nav a:hover { /* Styling for the hover effect */
     /* aligns all items in the box */
     align-items: flex-start;
     flex-wrap: wrap;
-    word-wrap: break-word;
+    word-wrap: break-word; /* Ensures text wraps within the box */
     text-align: left;
     padding: 10px;
-    box-sizing: border-box;
-    overflow-y: auto;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    overflow-y: auto; /* Adds a scrollbar when content exceeds the box height */
     border-radius: 5px;
     
 }
@@ -131,7 +131,7 @@ nav a:hover { /* Styling for the hover effect */
     transition: transform 0.5s ease; 
 }
 
-.thumbnail:hover {
+.thumbnail:hover { /* Enlarges the thumbnail on hover */
     transform: scale(1.5); 
     z-index: 5; 
     position: relative;
