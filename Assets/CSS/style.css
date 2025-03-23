@@ -110,6 +110,17 @@ nav {
     box-sizing: border-box;
     
 }
+
+/* Styling for the heading in the Club Finder */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px; 
+}
 /* Paper plane gallery thumbnail hover enlargement this doenst quite work and should enlarge over the .box */
 .thumbnail {
     display: inline-block; 
