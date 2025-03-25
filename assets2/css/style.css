@@ -1,0 +1,196 @@
+body { /* Styling for the body */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%; /* Ensures the body takes up the full height of the screen */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f0f0f0;
+    display: flex; /* Ensures the body is a flex container */
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* Allows the body to grow to fill the screen */
+}
+
+header { /* Styling for the header */
+    background: #ddd;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navbar */
+nav { /* Styling for the navbar */
+    display: flex;
+    justify-content: space-around;
+    background-color: #0056b3; /* Darker blue for better readability */
+    width: 100%; /* spans the entire width of the screen */
+    padding: 15px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav a { /* Styling for the links in the navbar */
+    color: #ffffff; /* White text for contrast */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    padding: 5px 10px; /* Adds padding around links */
+    border-radius: 5px; /* Adds rounded corners for a modern look */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav a.active { /* Styling for the active link */
+    background-color: #007bff; /* Highlight active link with a lighter blue */
+    color: #ffffff; /* Ensure text remains white */
+}
+
+nav a:hover { /* Styling for the hover effect */
+    background-color: #004085; /* Darker blue on hover */
+    color: #ffffff; /* Ensure text remains white */
+}
+
+/* Background container */
+.bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/Background-blueprint1.webp'); /* Background image */
+    background-repeat: repeat; /* Ensures the background image repeats */
+    background-size: contain;
+    z-index: -1; /* Ensures the background is behind all other elements */
+}
+/* Styling for the science of flight */
+#science-list {
+    list-style-type: none; /* Removes default list styling */
+}
+
+/* Main container */
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 0% 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    flex: 1;
+}
+
+/* Box styling */
+.box {
+    width: 100%;
+    background-color: lightblue;
+    margin: 5px 0;
+    display: flex;
+    max-height: fit-content;
+    flex-direction: column;
+    /* aligns items in a column  This was the only way I could think of th get the headings to sit above the core text*/
+    justify-content: flex-start;
+    /* aligns all items in the box */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    word-wrap: break-word; /* Ensures text wraps within the box */
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    overflow-y: auto; /* Adds a scrollbar when content exceeds the box height */
+    border-radius: 5px;
+    
+}
+/* Un-constrained Box styling fo gallery pop outs */
+.box-unconstrained {
+    width: 100%;
+    background-color: lightblue;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    /* aligns items in a column  This was the only way I could think of to get the headings to sit above the core text*/
+    justify-content: flex-start;
+    /* aligns all items in the box */
+    align-items: flex-start;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+/* Styling for the heading in the Club Finder */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px; 
+}
+/* Paper plane gallery thumbnail hover enlargement this doenst quite work and should enlarge over the .box */
+.thumbnail {
+    display: inline-block; 
+    transition: transform 0.5s ease; 
+}
+
+.thumbnail:hover { /* Enlarges the thumbnail on hover */
+    transform: scale(1.5); 
+    z-index: 5; 
+    position: relative;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    background: #ddd;
+    position: fixed;
+    bottom: 0;
+    padding: 0% 0;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+/* Social network styling taken from Just Running */
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .box {
+        padding: 5px;
+    }
+}
