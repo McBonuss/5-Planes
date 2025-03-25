@@ -4,13 +4,33 @@
 ---
 
 ### Project Description
-5 Planes is a static front-end website dedicated to the art of paper airplanes. The site acts as an initial launchpad into the socials and how to make paper air planes.  
+User Centric Frontend Development Milestone Project
+Project purpose: Presentation of static data
+In this project, you’ll build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.
 
+Value provided:
+Data is presented in a way that helps users achieve their goals, e.g. learning about a product/service that they are interested in.
+The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
+Project Requirements
+Main Technologies
+Required: HTML, CSS
+
+Optional: Bootstrap and/or other CSS libraries/frameworks.
+
+Mandatory Requirements
+A project violating any of these requirements will FAIL
+
+Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+Information Architecture: Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
+Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+Version Control: Use Git & GitHub for version control.
+Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
 ---
 
 ### Main Technologies
 - **Required**: HTML, CSS
-- **Optional**: Bootstrap and/or other CSS libraries/frameworks
+- **Required**: Bootstrap and/or other CSS libraries/frameworks
 
 ---
 
@@ -35,8 +55,8 @@
 ---
 
 ### Who is this for?
-This project is for anyone interested in learning about different types of paper airplanes and how to make them. It is also suitable for those looking to practice their front-end development skills.
-
+The aim of the site is to be a hub for those interested in making a few paper airplanes and learning the basics of flight from a practical STEM stand point, the site also acts as acontact list for global clubs that users can join. The site is an initial intro into the world of non-lignin pulped cellulose aiviation and is not meant to be exhaustive but a fun start or afternoon hobbyists refrence. 
+![Initial wireframe for styling and flow](assets/images/Wireframe.jpg)
 ---
 
 ### Features
@@ -49,9 +69,7 @@ This project is for anyone interested in learning about different types of paper
 
 ### How to Build
 1. Clone the repository from GitHub:
-   ```bash
    git clone https://github.com/mcbonuss/5-Planes.git
-   ```
 2. Open the project in your preferred code editor.
 3. Ensure you have an internet connection to load Bootstrap from the CDN.
 4. Open `index.html` in your browser to view the website.
@@ -72,8 +90,9 @@ To deploy the project to GitHub Pages:
 - The layout was tested on different screen sizes to verify responsiveness.
 - Forms were tested to ensure proper validation and submission.
 - Known Issues:
-  - The carousel may not display correctly if images are missing or improperly sized.
+  - The carousel was removed and replaced.
   - Some older browsers may not fully support modern CSS features.
+  - The GitHub deployment does not replicate the bootstrap code and CSS fails 
 
 ---
 
@@ -83,6 +102,7 @@ To deploy the project to GitHub Pages:
 - **newsletter.html**: A page with a form for newsletter signup.
 - **style.css**: Custom CSS styles for the project.
 - **assets**: Directory containing images and other assets used in the project.
+- **5planes**: wire fame included in directory 
 
 ---
 
