@@ -32,10 +32,10 @@ header {
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff; /* White text for contrast */
+    color: #ffffff; /* White text */
     font-weight: bold;
-    text-align: center; /* Center-align the text */
-    padding: 10px 15px; /* Add padding for better spacing */
+    text-align: center; 
+    padding: 10px 15px; /* Added padding for better spacing */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -112,25 +112,50 @@ footer {
     list-style: none;
 }
 
-/* Corner logo styling */
-.corner-logo {
-    position: fixed;
-    width: 100px;
-    height: auto;
-    z-index: 1000;
-    opacity: 0.8;
+#social-networks a {
+    font-size: 1.5rem; /* Increase the size of the icons */
+    color: #ffffff; /* Ensure the icons are white */
+    transition: transform 0.3s ease, color 0.3s ease; /* Add a smooth hover effect */
 }
 
+#social-networks a:hover {
+    color: #007bff; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+/* Corner logo styling */
+.corner-logo {
+    position: fixed; /* Fix the logo in the viewport */
+    max-width: 80px; /* Adjust the size of the logo */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Ensure the logo stays on top of other elements */
+    opacity: 0.8; /* Slight transparency for better aesthetics */
+}
+
+/* Top-left corner */
 .corner-logo.top-left {
-    top: 10px;
+    top: 10px; /* Anchor to the top */
+    left: 10px; /* Align to the left */
+}
+
+/* Top-right corner */
+.corner-logo.top-right {
+    top: 10px; /* Anchor to the top */
+    right: 10px; /* Align to the right */
+}
+
+/* Bottom-left corner */
+.corner-logo.bottom-left {
+    bottom: 10px;
     left: 10px;
 }
 
-.corner-logo.top-right {
-    top: 10px;
+/* Bottom-right corner */
+.corner-logo.bottom-right {
+    bottom: 10px;
     right: 10px;
 }
-
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
