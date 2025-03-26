@@ -115,7 +115,7 @@ footer {
 /* Corner logo styling */
 .corner-logo {
     position: fixed;
-    width: 50px;
+    width: 100px;
     height: auto;
     z-index: 1000;
     opacity: 0.8;
