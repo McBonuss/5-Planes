@@ -1,79 +1,52 @@
 /* General body styling */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100%; /* Ensures the body takes up the full height of the screen */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    background-color: #e9f5f9; /* Light blue background for readability */
-    display: flex; /* Ensures the body is a flex container */
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1; /* Allows the body to grow to fill the screen */
+    margin: 0;
+    padding: 0;
+    background-color: #0056b3; /*  background */
+    color: #333333; /* Dark gray text */
     overflow-x: hidden; /* Disable horizontal scrolling */
-    color: #333333; /* Dark gray text for readability */
 }
 
 /* Header styling */
 header {
-    background: #0056b3; /* Dark blue background for the header */
+    background: #0056b3; /* Blue matches logo */
     color: #ffffff; /* White text for contrast */
     width: 100%;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Navbar styling */
-nav {
+.navbar {
+    background-color: #007bff; /* Bright blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the navbar links */
+.navbar-nav {
     display: flex;
-    justify-content: space-between; /* Space between brand and links */
-    align-items: center; /* Vertically center items */
-    background-color: #007bff; /* Bright blue for navbar */
-    padding: 10px 20px; /* Add padding for spacing */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
-    position: sticky; /* Keeps the navbar at the top when scrolling */
-    top: 0; /* Position at the top */
-    z-index: 1000; /* Ensure it stays above other elements */
+    justify-content: center; /* Center the links horizontally */
+    width: 100%; /* Ensure the links span the full width of the navbar */
 }
 
-/* Navbar links */
-nav a {
-    color: #ffffff; /* White text for contrast */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem; /* Adjust font size for readability */
-    padding: 5px 10px; /* Add padding around links */
-    border-radius: 5px; /* Rounded corners for a modern look */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-}
-
-nav a.active {
-    background-color: #004085; /* Darker blue for active link */
-    color: #ffffff; /* Ensure text remains white */
-}
-
-nav a:hover {
-    background-color: #0056b3; /* Slightly darker blue on hover */
-    color: #ffffff; /* Ensure text remains white */
-}
-
-/* Navbar links for small screens */
 .navbar-nav .nav-link {
     color: #ffffff; /* White text for contrast */
-    font-size: 1rem; /* Adjust font size for readability */
-    padding: 10px 15px; /* Add padding for better clickability */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+    font-weight: bold;
+    text-align: center; /* Center-align the text */
+    padding: 10px 15px; /* Add padding for better spacing */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #004085; /* Change text color on hover */
-    background-color: rgba(255, 255, 255, 0.1); /* Add a subtle background on hover */
+    background-color: #0056b3; /* Slightly darker blue on hover */
+    color: #ffffff;
 }
 
-.navbar-nav .nav-link.active {
-    color: #004085; /* Highlight active link */
-    font-weight: bold; /* Make the active link bold */
+/* Navbar toggler button */
+.navbar-toggler {
+    border: none;
 }
 
 /* Background container */
@@ -83,61 +56,52 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../images/Background-blueprint1.webp'); /* Background image */
-    background-repeat: repeat; /* Ensures the background image repeats */
+    background: url('../images/Background-blueprint1.webp');
+    background-repeat: repeat;
     background-size: contain;
-    z-index: -1; /* Ensures the background is behind all other elements */
+    z-index: -1;
 }
 
 /* Main container */
 .container {
-    display: flex;
-    max-width: 90%; /* Reduce the width to make it slightly smaller */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add padding for spacing */
-    background-color: #ffffff; /* White background for floating effect */
-    border-radius: 10px; /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex: 1;
-    color: #333333; /* Dark gray text for readability */
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
 }
 
 /* Box styling */
 .box {
-    max-width: 100%; /* Ensure the box does not exceed the container's width */
-    background-color: #f8f9fa; /* Light gray background for boxes */
-    margin-bottom: 20px; /* Add spacing between boxes */
-    display: flex;
-    flex-direction: column; /* Align items in a column */
-    justify-content: flex-start; /* Align content at the top */
-    align-items: flex-start; /* Align items to the left */
-    word-wrap: break-word; /* Ensure long words wrap to the next line */
-    overflow-wrap: break-word; /* Break long words to prevent overflow */
-    text-align: left;
-    padding: 15px; /* Add padding inside the box */
-    box-sizing: border-box; /* Include padding and border in the width */
-    overflow-y: auto; /* Add vertical scrolling if content exceeds height */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    color: #333333; /* Dark gray text for readability */
+    background-color: #f8f9fa; /* Light gray */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* Footer styling */
 footer {
-    display: flex;
-    background: #0056b3; /* Dark blue background for footer */
-    color: #ffffff; /* White text for contrast */
-    position: fixed;
-    bottom: 0;
+    background: #0056b3; /* Dark blue */
+    color: #ffffff;
     padding: 10px 0;
-    width: 100%;
     text-align: center;
-    justify-content: space-evenly;
-    list-style-type: none;
+    width: 100%;
 }
 
 /* Social network styling */
@@ -145,261 +109,33 @@ footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-    list-style-type: none;
-}
-
-/* Navbar links */
-.navbar-nav .nav-link {
-    color: #ffffff; /* White text for contrast */
-    font-size: 1rem; /* Adjust font size for readability */
-    padding: 10px 15px; /* Add padding for better clickability */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
-}
-
-.navbar-nav .nav-link:hover {
-    color: #004085; /* Change text color on hover */
-    background-color: rgba(255, 255, 255, 0.1); /* Add a subtle background on hover */
-}
-
-.navbar-nav .nav-link.active {
-    color: #004085; /* Highlight active link */
-    font-weight: bold; /* Make the active link bold */
-}
-
-/* Navbar toggle button for small screens */
-.navbar-toggler {
-    display: none; /* Hide by default */
-    background-color: #007bff; /* Match the active link color */
-    border: none; /* Remove border */
-    padding: 5px 10px; /* Add padding for better clickability */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor for better UX */
-}
-
-/* Navbar toggle icon */
-.navbar-toggler-icon {
-    background-image: url("assets\images\tranparent-log.webp");
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-/* Responsive navbar menu */
-.collapse {
-    display: flex;
-    flex-direction: column; /* Stack links vertically */
-    gap: 10px; /* Add spacing between links */
-    background-color: #0056b3; /* Match navbar background */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 5px; /* Rounded corners */
-}
-
-/* Navbar logo styling */
-.navbar-logo {
-    height: 50px; /* Adjust the height of the logo */
-    width: auto; /* Maintain aspect ratio */
-    display: inline-block; /* Ensure it behaves like an inline element */
-    vertical-align: middle; /* Align it vertically with other navbar elements */
-}
-
-/* Navbar text styling */
-.navbar-text {
-    color: #ffffff; /* White text for contrast */
-    font-size: 1.2rem; /* Slightly larger font size */
-    font-weight: bold; /* Bold text for emphasis */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease; /* Smooth hover effect */
-}
-
-.navbar-text:hover {
-    color: #007bff; /* Change text color on hover */
-}
-
-/* Background container */
-.bg-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('../images/Background-blueprint1.webp'); /* Background image */
-    background-repeat: repeat; /* Ensures the background image repeats */
-    background-size: contain;
-    z-index: -1; /* Ensures the background is behind all other elements */
-}
-
-/* Styling for the science of flight */
-#science-list {
-    list-style-type: none; /* Removes default list styling */
-}
-
-/* Main container */
-.container {
-    display: flex;
-    max-width: 90%; /* Reduce the width to make it slightly smaller */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add padding for spacing */
-    background-color: #ffffff; /* White background for floating effect */
-    border-radius: 10px; /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex: 1;
-    color: #333333; /* Dark gray text for readability */
-}
-
-/* Box styling */
-.box {
-    max-width: 100%; /* Ensure the box does not exceed the container's width */
-    background-color: #f8f9fa; /* Light gray background for boxes */
-    margin-bottom: 20px; /* Add spacing between boxes */
-    display: flex;
-    flex-direction: column; /* Align items in a column */
-    justify-content: flex-start; /* Align content at the top */
-    align-items: flex-start; /* Align items to the left */
-    word-wrap: break-word; /* Ensure long words wrap to the next line */
-    overflow-wrap: break-word; /* Break long words to prevent overflow */
-    text-align: left;
-    padding: 15px; /* Add padding inside the box */
-    box-sizing: border-box; /* Include padding and border in the width */
-    overflow-y: auto; /* Add vertical scrolling if content exceeds height */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    color: #333333; /* Dark gray text for readability */
-}
-
-/* Un-constrained Box styling fo gallery pop outs */
-.box-unconstrained {
-    width: 100%;
-    background-color: lightblue;
-    margin: 10px 10px;
-    display: flex;
-    flex-direction: column;
-    /* aligns items in a column  This was the only way I could think of to get the headings to sit above the core text*/
-    justify-content: flex-start;
-    /* aligns all items in the box */
-    align-items: flex-start;
-    padding: 5px;
-    box-sizing: border-box;
-    
-}
-
-/* Styling for the heading in the Club Finder */
-.heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    padding: 10px; 
-}
-/* Paper plane gallery thumbnail hover enlargement this doenst quite work and should enlarge over the .box */
-.thumbnail {
-    display: inline-block; 
-    transition: transform 0.5s ease; 
-}
-
-.thumbnail:hover { /* Enlarges the thumbnail on hover */
-    transform: scale(1.5); 
-    z-index: 5; 
-    position: relative;
-}
-
-/* Footer styling */
-footer {
-    display: flex;
-    background: #0056b3; /* Dark blue background for footer */
-    color: #ffffff; /* White text for contrast */
-    position: fixed;
-    bottom: 0;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-/* Social network styling taken from Just Running */
-#social-networks {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    list-style-type: none;
+    list-style: none;
 }
 
 /* Corner logo styling */
 .corner-logo {
     position: fixed;
-    width: 50px; /* Adjust the size of the logo */
-    height: auto; /* Maintain aspect ratio */
-    z-index: 1000; /* Ensure the logo stays on top of other elements */
-    opacity: 0.8; /* Slight transparency for better aesthetics */
+    width: 50px;
+    height: auto;
+    z-index: 1000;
+    opacity: 0.8;
 }
 
-/* Top-left corner */
 .corner-logo.top-left {
     top: 10px;
     left: 10px;
 }
 
-/* Top-right corner */
 .corner-logo.top-right {
     top: 10px;
     right: 10px;
 }
 
-/* Bottom-left corner */
-.corner-logo.bottom-left {
-    bottom: 10px;
-    left: 10px;
-}
 
-/* Bottom-right corner */
-.corner-logo.bottom-right {
-    bottom: 10px;
-    right: 10px;
-}
-
-/* Media queries for different screen sizes */
-@media (max-width: 1200px) {
-    .container {
-        width: 90%;
-    }
-}
-
-@media (max-width: 992px) {
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
     .container {
         width: 95%;
-    }
-}
-
-@media (max-width: 768px) {
-    nav {
-        flex-wrap: wrap; /* Allow wrapping for small screens */
-    }
-
-    .navbar-toggler {
-        display: block; /* Show toggle button on small screens */
-    }
-
-    .collapse {
-        display: none; /* Hide links by default */
-        width: 100%; /* Full width for small screens */
-    }
-
-    .collapse.show {
-        display: flex; /* Show links when toggled */
-    }
-
-    nav a {
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
-        padding: 5px; /* Reduce padding for smaller screens */
-    }
-
-    .container {
-        width: 100%;
         padding: 10px;
     }
 
