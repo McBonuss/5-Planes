@@ -17,34 +17,65 @@ header { /* Styling for the header */
     text-align: center;
 }
 
-/* Navbar */
-nav { /* Styling for the navbar */
+/* Navbar styling */
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Vertically center items */
     background-color: #0056b3; /* Darker blue for better readability */
-    width: 100%; /* spans the entire width of the screen */
-    padding: 15px; /* Increased padding for better spacing */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    position: sticky; /* Keeps the navbar at the top when scrolling */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Ensure it stays above other elements */
 }
 
-nav a { /* Styling for the links in the navbar */
+/* Navbar links */
+nav a {
     color: #ffffff; /* White text for contrast */
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem; /* Slightly larger font size for readability */
-    padding: 5px 10px; /* Adds padding around links */
-    border-radius: 5px; /* Adds rounded corners for a modern look */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+    font-size: 1rem; /* Adjust font size for readability */
+    padding: 5px 10px; /* Add padding around links */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
-nav a.active { /* Styling for the active link */
-    background-color: #007bff; /* Highlight active link with a lighter blue */
+nav a.active {
+    background-color: #007bff; /* Highlight active link */
     color: #ffffff; /* Ensure text remains white */
 }
 
-nav a:hover { /* Styling for the hover effect */
+nav a:hover {
     background-color: #004085; /* Darker blue on hover */
     color: #ffffff; /* Ensure text remains white */
+}
+
+/* Navbar toggle button for small screens */
+.navbar-toggler {
+    display: none; /* Hide by default */
+    background-color: #007bff; /* Match the active link color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add padding for better clickability */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+/* Navbar toggle icon */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Responsive navbar menu */
+.collapse {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px; /* Add spacing between links */
+    background-color: #0056b3; /* Match navbar background */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
 }
 
 /* Background container */
@@ -171,6 +202,28 @@ footer {
 }
 
 @media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap; /* Allow wrapping for small screens */
+    }
+
+    .navbar-toggler {
+        display: block; /* Show toggle button on small screens */
+    }
+
+    .collapse {
+        display: none; /* Hide links by default */
+        width: 100%; /* Full width for small screens */
+    }
+
+    .collapse.show {
+        display: flex; /* Show links when toggled */
+    }
+
+    nav a {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+
     .container {
         width: 100%;
         padding: 10px;

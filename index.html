@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn about different types of paper airplanes and how to make them.">
     <!-- Bootstrap dependencies -->
-    <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -23,51 +22,133 @@
         <h1>5 Planes</h1>
         <h2>5 Planes – Where Paper Takes Flight</h2>
     </header>
-    <nav class="nav"> <!-- Nav bar across all pages -->
-        <a href="index.html" class="active">Home</a>
-        <a href="club-finder.html">Club Finder</a>
-        <a href="paper-types.html">Making a Real Flyer</a>
-        <a href="events.html">Events</a>
-        <a href="newsletter.html">Newsletter Signup</a>
+
+    <!-- Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">5 Planes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="club-finder.html">Club Finder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paper-types.html">Making a Real Flyer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
     <!-- Container for text boxes - provides alignment and padding -->
     <div class="container-fluid bg-container"></div>
     <main class="container">
-        <!-- navigable sections that may replace the nav bar with click throughs should use Bootstrap-->
+        <!-- Content -->
         <div class="container">
             <br>
             <div class="box">
-                <br>
                 <h3>Your Ultimate Hub for Paper Airplane Enthusiasts</h3>
-                <p>Welcome to 5 Planes, the go-to destination for paper airplane lovers of all ages! Whether you're a beginner learning your first folds, an expert pushing the limits of design, or a competitor aiming for the longest flight, we’re here to connect you with the world of paper aviation.
-                </p>
+                <p>Welcome to 5 Planes, the go-to destination for paper airplane lovers of all ages! Whether you're a
+                    beginner learning your first folds, an expert pushing the limits of design, or a competitor aiming
+                    for the longest flight, we’re here to connect you with the world of paper aviation.</p>
             </div>
             <br>
-                <div class="box">
-                <h3>What We Offer</h3> <!-- alternative links embedded-->
-                <ul>
-                    <li> <a href="paper-types.html">✈️ Master the 5 Essential Planes</a>
-                    From speed darts to long-distance gliders, we break down five must-know paper airplane designs that every flyer should master. Follow our step-by-step guides, watch tutorials, and start folding like a pro.</li>
-                                    
-                    <li><a href="events.html"> Events & Competitions </a>
-                    Stay up to date with paper airplane competitions, club meetups, and record-breaking challenges worldwide. Test your skills and compete against the best!</li>
-                    
-                    <li><a href="club-finder.html">🤝 Join a Club – or Start Your Own</a>
-                    Find local paper airplane clubs, connect with fellow enthusiasts, and build a community of flyers. Share designs, tips, and techniques to take your flights even further.</li>
-                    
-                    <li>📖 The Science of Flight
-                    Learn how paper airplanes fly! Explore aerodynamics, wing shapes, and launch techniques that impact speed, stability, and distance. </li>
-                    
-                    <li>🚀 Fun for Everyone
-                    Whether you're a teacher bringing STEM to life, a company hosting a team-building challenge, or just looking for a fun hobby, 5 Planes makes paper airplanes exciting for all.</li>
-                    
-                    <li><a href="club-finder.html"> Start Folding & Flying Today!</a>
-                    The sky’s the limit! Explore designs, join an event, or connect with other flyers. Take flight with 5 Planes today!</li>
-                </ul>
-                </div>
-        </div>
+            <div class="box">
+                <h3>Discover Exciting Paper Airplane Events</h3>
+                <p>Join the world of paper aviation through thrilling events and competitions! Whether you're looking to
+                    showcase your folding skills, compete for the longest flight, or simply connect with fellow
+                    enthusiasts, our events are designed for everyone. From local meetups to international challenges,
+                    there's always something happening in the world of paper airplanes.</p>
+                <p>Stay updated on upcoming events, learn about record-breaking attempts, and find opportunities to
+                    participate in workshops and exhibitions. Take your passion for paper airplanes to the next level
+                    and be part of a vibrant community that celebrates creativity and innovation in flight!</p>
+            </div>
             <br>
-
+            <div class="box">
+                <h3>Upcoming Events</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">International Paper Plane Day</h4>
+                                <p class="card-text">Date: 26th March 2025</p>
+                                <p class="card-text">Location: Worldwide</p>
+                                <p class="card-text">Celebrate the art of paper folding on International Paper Plane
+                                    Day! Join enthusiasts from around the globe in a day of fun, creativity, and
+                                    friendly competition.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">Flight School Workshop</h4>
+                                <p class="card-text">Date: 10th April 2025</p>
+                                <p class="card-text">Location: New York, USA</p>
+                                <p class="card-text">Learn the art of paper airplane folding from the experts! Join our
+                                    Flight School Workshop for a hands-on experience in design, construction, and flight
+                                    techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">World Record Challenge</h4>
+                                <p class="card-text">Date: 15th May 2025</p>
+                                <p class="card-text">Location: Tokyo, Japan</p>
+                                <p class="card-text">Compete for the title of World Record Holder in the ultimate paper
+                                    airplane challenge! Test your design, launch, and flight skills against the best in
+                                    the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <h3>Global Events Gallery</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="assets/images/competion-world-record-2022.webp"
+                                alt="World record holder championship" class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <p class="card-text">Global world record attempt 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="assets/images/local-championships-2024.webp" alt="Local championship winners"
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <p class="card-text">Local Championships</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="assets/images/paper-airplane-club1.webp" alt="5 Planes group meet"
+                                class="card-img-top img-fluid">
+                            <div class="card-body text-center">
+                                <p class="card-text">5 Planes Group Meet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Russ M (Code Institute)</p>
