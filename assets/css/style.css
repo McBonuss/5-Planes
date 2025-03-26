@@ -125,7 +125,7 @@ footer {
 
 /* Corner logo styling */
 .corner-logo {
-    position: fixed; /* Fix the logo in the viewport */
+    position: absolute; /* Fix the logo in the viewport */
     max-width: 80px; /* Adjust the size of the logo */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
