@@ -81,6 +81,8 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: #333333;
+    max-width: 800px; /* Restrict width */
+    margin: 0 auto; /* Center the content */
 }
 
 /* Card styling */
@@ -176,6 +178,13 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Apply justified alignment to paragraphs */
+p {
+    text-align: justify; /* Justify text alignment */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .container {
@@ -185,6 +194,11 @@ footer {
 
     .box {
         padding: 10px;
+    }
+
+    p {
+        margin-bottom: 10px; /* Reduce spacing for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
     }
 }
 
