@@ -134,7 +134,8 @@ The initial wireframe for the website can be found below:
 ### Manual Testing  
 - Navigation links tested for functionality.  
 - Forms tested for validation and submission.  
-- Images and videos tested for responsiveness.  
+- Images and videos tested for responsiveness.
+- Tested with [ChromeLightHouse] (<assets\mcbonuss.github.io_2025-03-27_17-14-05-lighthouse-test.html>). 
 
 ---
 
