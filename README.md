@@ -1,131 +1,176 @@
-# 5 Planes
-## The Origami of Flight
+# 5 Planes  
+## The Origami of Flight  
+
+![5 Planes Mockup](assets/images/Wireframe.jpg)  
+
+5 Planes is a website dedicated to the art and science of paper airplanes. It serves as a hub for enthusiasts of all ages, offering resources, tutorials, and a platform to connect with like-minded individuals. Whether you're a beginner learning your first folds or an expert aiming for record-breaking flights, 5 Planes is the perfect place to start your journey.  
+
+Visit the deployed website [here](https://mcbonuss.github.io/5-Planes/).  
 
 ---
 
-### Project Description
-User Centric Frontend Development Milestone Project
-Project purpose: Presentation of static data
-In this project, you’ll build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.
+## Table of Contents  
 
-Value provided:
-Data is presented in a way that helps users achieve their goals, e.g. learning about a product/service that they are interested in.
-The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
-Project Requirements
-Main Technologies
-Required: HTML, CSS
-
-Optional: Bootstrap and/or other CSS libraries/frameworks.
-
-Mandatory Requirements
-A project violating any of these requirements will FAIL
-
-Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
-Information Architecture: Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
-Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
-Version Control: Use Git & GitHub for version control.
-Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
-Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
----
-
-### Main Technologies
-- **Required**: HTML, CSS
-- **Required**: Bootstrap and/or other CSS libraries/frameworks
-
----
-
-### Table of Contents
-- [Pre-requisites](#pre-requisites)
-- [Who is this for?](#who-is-this-for)
-- [Features](#features)
-- [How to Build](#how-to-build)
-- [Deployment](#deployment)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [Licenses and References Used](#licenses-and-references-used)
-- [Credits](#credits)
-- [Contacts](#contacts)
+1. [Project Description](#project-description)  
+2. [User Experience (UX)](#user-experience-ux)  
+    1. [Project Goals](#project-goals)  
+    2. [User Stories](#user-stories)  
+    3. [Color Scheme](#color-scheme)  
+    4. [Typography](#typography)  
+    5. [Wireframes](#wireframes)  
+3. [Features](#features)  
+    1. [General](#general)  
+    2. [Landing Page](#landing-page)  
+    3. [Club Finder Page](#club-finder-page)  
+    4. [Newsletter Signup Page](#newsletter-signup-page)  
+4. [Technologies Used](#technologies-used)  
+    1. [Languages Used](#languages-used)  
+    2. [Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)  
+5. [Testing](#testing)  
+    1. [Testing User Stories](#testing-user-stories)  
+    2. [Code Validation](#code-validation)  
+    3. [Accessibility](#accessibility)  
+    4. [Manual Testing](#manual-testing)  
+6. [Deployment](#deployment)  
+7. [Credits](#credits)  
+    1. [Content](#content)  
+    2. [Media](#media)  
+    3. [Code](#code)  
+8. [Acknowledgements](#acknowledgements)  
+9. [Contacts](#contacts)  
 
 ---
 
-### Pre-requisites
-- Basic knowledge of HTML and CSS.
-- Familiarity with Bootstrap (optional).
+## Project Description  
+
+5 Planes is a user-centric front-end development project designed to present static data in an engaging and visually appealing way. The website provides information about paper airplane designs, tutorials, and events, while also connecting users to local clubs and communities.  
 
 ---
 
-### Who is this for?
-The aim of the site is to be a hub for those interested in making a few paper airplanes and learning the basics of flight from a practical STEM stand point, the site also acts as acontact list for global clubs that users can join. The site is an initial intro into the world of non-lignin pulped cellulose aiviation and is not meant to be exhaustive but a fun start or afternoon hobbyists refrence. 
-![Initial wireframe for styling and flow](assets/images/Wireframe.jpg)
----
+## User Experience (UX)  
 
-### Features
-- **Carousel**: A responsive image carousel showcasing paper airplane events and designs.
-- **Club Finder**: A grid layout displaying paper airplane clubs across Europe with clickable email links for contact.
-- **Newsletter Signup**: A form to subscribe to the latest updates and events.
-- **Responsive Design**: Fully responsive layout using Bootstrap for compatibility across devices.
+### Project Goals  
+- Provide a visually appealing and user-friendly website for paper airplane enthusiasts.  
+- Offer resources, tutorials, and event information to foster a community of hobbyists.  
+- Encourage users to connect with local clubs and participate in events.  
 
----
+### User Stories  
+- As a user, I want to learn how to fold paper airplanes through tutorials.  
+- As a user, I want to find local clubs to connect with other enthusiasts.  
+- As a user, I want to sign up for a newsletter to stay updated on events and tips.  
+- As a user, I want to view upcoming events and competitions.  
+- As a user, I want the website to be responsive and easy to navigate on any device.  
 
-### How to Build
-1. Clone the repository from GitHub:
-   git clone https://github.com/mcbonuss/5-Planes.git
-2. Open the project in your preferred code editor.
-3. Ensure you have an internet connection to load Bootstrap from the CDN.
-4. Open `index.html` in your browser to view the website.
+### Color Scheme  
+The website uses a blue and white color scheme to evoke a sense of calm and creativity.  
 
----
+### Typography  
+The primary font is **Gill Sans**, with fallback fonts for compatibility.  
 
-### Deployment
-To deploy the project to GitHub Pages:
-1. Push the project to a GitHub repository.
-2. Go to the repository's settings.
-3. Under the "Pages" section, select the branch (e.g., `main`) and folder (e.g., `/root`) to deploy.
-4. Save the settings, and the website will be available at `https://<your-username>.github.io/<repository-name>`.
+### Wireframes  
+The initial wireframe for the website can be found below:  
+![Wireframe](assets/images/Wireframe.jpg)  
 
 ---
 
-### Testing
-- The project was tested on multiple browsers (Chrome, Firefox, Edge) to ensure compatibility.
-- The layout was tested on different screen sizes to verify responsiveness.
-- Forms were tested to ensure proper validation and submission.
-- Known Issues:
-  - The carousel was removed and replaced.
-  - Some older browsers may not fully support modern CSS features.
-  - The GitHub deployment does not replicate the bootstrap code and CSS fails 
+## Features  
+
+### General  
+- Fully responsive design for all devices.  
+- Consistent navigation bar across all pages.  
+- Footer with social media links and copyright information.  
+
+### Landing Page  
+- Introduction to the world of paper airplanes.  
+- Featured video showcasing the art of paper airplanes.  
+- Upcoming events section with details and dates.  
+
+### Club Finder Page  
+- Grid layout displaying paper airplane clubs across Europe.  
+- Clickable email links for contacting clubs.  
+
+### Newsletter Signup Page  
+- Form for users to subscribe to the newsletter.  
+- Gallery showcasing folding techniques.  
 
 ---
 
-### Documentation
-- **index.html**: The main landing page with an introduction and navigation menu.
-- **club-finder.html**: A page displaying a grid of paper airplane clubs with contact details.
-- **newsletter.html**: A page with a form for newsletter signup.
-- **style.css**: Custom CSS styles for the project.
-- **assets**: Directory containing images and other assets used in the project.
-- **5planes**: wire fame included in directory 
+## Technologies Used  
+
+### Languages Used  
+- HTML5  
+- CSS3  
+
+### Frameworks, Libraries, and Programs Used  
+- **Bootstrap**: For responsive design and layout.  
+- **Font Awesome**: For social media icons.  
+- **Lightbox2**: For the gallery feature.  
+- **Google Fonts**: For typography.  
+- **GitHub Pages**: For deployment.  
 
 ---
 
-### Licenses and References Used
-- **Bootstrap**: [https://getbootstrap.com/](https://getbootstrap.com/)
-- **Images**: All images used are either created by the project author, sourced from free image repositories, or generated using DALLE.
+## Testing  
+
+### Testing User Stories  
+1. **Learn how to fold paper airplanes**:  
+   - Tutorials are accessible on the landing page.  
+2. **Find local clubs**:  
+   - Club Finder page lists clubs with contact details.  
+3. **Sign up for the newsletter**:  
+   - Newsletter Signup page includes a functional form.  
+4. **View upcoming events**:  
+   - Events are displayed on the landing page.  
+5. **Responsive design**:  
+   - Tested on multiple devices and screen sizes.  
+
+### Code Validation  
+- HTML validated using [W3C Markup Validator](https://validator.w3.org/).  
+- CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
+
+### Accessibility  
+- Tested with Lighthouse in Chrome DevTools to ensure good accessibility scores.  
+
+### Manual Testing  
+- Navigation links tested for functionality.  
+- Forms tested for validation and submission.  
+- Images and videos tested for responsiveness.  
 
 ---
 
-### Credits
-- **Font Awesome**: Used for social media icons in the footer.
-- **Code Institute**: Provided guidance and resources for the project.
-- **Love-running**: Used for the footer elements and gallery elements. 
-- **DALLE**: Used for generating some of the images.
-- **ChatGPT**: Used as a search engine and for code referencing and syntax checking.
+## Deployment  
+
+The project was deployed using GitHub Pages:  
+1. Push the project to a GitHub repository.  
+2. Go to the repository's settings.  
+3. Under the "Pages" section, select the branch (e.g., `main`) and folder (e.g., `/root`) to deploy.  
+4. Save the settings, and the website will be available at `https://<your-username>.github.io/<repository-name>`.  
 
 ---
 
-### Contacts
-For any questions or feedback, please contact:
-- **Name**: Russ M
-- **Email**: rmckeith@gmail.com
+## Credits  
+
+### Content  
+- All content was written by the developer.  
+
+### Media  
+- Images were sourced from free repositories or generated using DALLE.  
+
+### Code  
+- Inspiration and guidance from Code Institute and Stack Overflow.  
+
+---
+
+## Acknowledgements  
+- Code Institute for project guidance.  
+- Family and friends for feedback and support.  
+
+---
+
+## Contacts  
+For any questions or feedback, please contact:  
+- **Name**: Russ M  
+- **Email**: rmckeith@gmail.com  
 - **GitHub**: [https://github.com/mcbonuss](https://github.com/mcbonuss)
-```
 
 
