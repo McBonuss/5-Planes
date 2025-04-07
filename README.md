@@ -3,7 +3,9 @@
 ## The Origami of Flight  
 
 ![5 Planes Mockup](assets/images/Wireframe.jpg)  
-
+![Full Size Responsive](assets/images/screenshots/full-size.jpg)
+![Tablet](assets/images/screenshots/tablet.jpg)
+![Mobile Phone](assets/images/screenshots/mobile-phone.jpg)
 5 Planes is a website dedicated to the art and science of paper airplanes. It serves as a hub for enthusiasts of all ages, offering resources, tutorials, and a platform to connect with like-minded individuals. Whether you're a beginner learning your first folds or an expert aiming for record-breaking flights, 5 Planes is the perfect place to start your journey.  
 
 Visit the deployed website [here](https://mcbonuss.github.io/5-Planes/).  
