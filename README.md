@@ -2,21 +2,21 @@
 
 ## The Origami of Flight  
 
-## Our Original mockup 
+## Our Original Mockup
 
 ![5 Planes Mockup](assets/images/Wireframe.jpg) 
 
 ## Responsive design
 
-###Full Size
+### Full Size
 
 ![Full Size Responsive](assets/images/screenshots/full-size.jpg)
 
-###Tablet
+### Tablet
 
 ![Tablet](assets/images/screenshots/tablet.jpg)
 
-###Mobile
+### Mobile
 
 ![Mobile Phone](assets/images/screenshots/mobile-phone.jpg)
 
