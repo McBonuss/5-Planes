@@ -161,6 +161,7 @@ The initial wireframe for the website can be found below:
 
 - HTML validated using [W3C Markup Validator](https://validator.w3.org/).  
 - CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
+- Screen shots of the test outcomes. 
 
 ### Accessibility  
 
@@ -168,9 +169,17 @@ The initial wireframe for the website can be found below:
 
 ### Manual Testing  
 
-- Navigation links tested for functionality.  
+- Navigation links tested for functionality. 
+- How did I test? 
+- Did the social media links go to the repective sites 
 - Forms tested for validation and submission.  
-- Images and videos tested for responsiveness.  
+- Fillin first name
+- fill in second name 
+- fill in email
+- Were the fields required? 
+
+- Images and videos tested for responsiveness.
+- 
 
 ---
 
@@ -223,7 +232,8 @@ For any questions or feedback, please contact:
 
 - **Name**: Russ M  
 - **Email**: <rmckeith@gmail.com>  
-- **GitHub**: [https://github.com/mcbonuss](https://github.com/mcbonuss)  
+- **GitHub**: [https://github.com/mcbonuss](https://github.com/mcbonuss) 
+- **GitHub**: Forking the repository  
 
 ---
 
@@ -235,4 +245,4 @@ For any questions or feedback, please contact:
 4. Organized the **Credits** and **Acknowledgements** sections for clarity.
 5. Ensured the README follows a professional structure with clear headings and subheadings.
 
-Let me know if you need further refinements!
+
