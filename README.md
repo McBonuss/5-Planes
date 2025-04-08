@@ -4,21 +4,9 @@
 
 ## Our Original Mockup
 
-![5 Planes Mockup](assets/images/Wireframe.jpg) 
+![5 Planes Mockup](assets/images/Wireframe.jpg)
 
-## Responsive design
 
-### Full Size
-
-![Full Size Responsive](assets/images/screenshots/full-size.jpg)
-
-### Tablet
-
-![Tablet](assets/images/screenshots/tablet.jpg)
-
-### Mobile
-
-![Mobile Phone](assets/images/screenshots/mobile-phone.jpg)
 
 5 Planes is a website dedicated to the art and science of paper airplanes. It serves as a hub for enthusiasts of all ages, offering resources, tutorials, and a platform to connect with like-minded individuals. Whether you're a beginner learning your first folds or an expert aiming for record-breaking flights, 5 Planes is the perfect place to start your journey.  
 
@@ -100,7 +88,22 @@ The initial wireframe for the website can be found below:
 
 ### General  
 
-- Fully responsive design for all devices.  
+- Fully responsive design for all devices. 
+
+## Responsive design
+
+### Full Size
+
+![Full Size Responsive](assets/images/screenshots/full-size.jpg)
+
+### Tablet
+
+![Tablet](assets/images/screenshots/tablet.jpg)
+
+### Mobile
+
+![Mobile Phone](assets/images/screenshots/mobile-phone.jpg) 
+
 - Consistent navigation bar across all pages.  
 - Footer with social media links and copyright information.  
 
