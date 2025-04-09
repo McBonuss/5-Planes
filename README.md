@@ -71,11 +71,6 @@ The website uses a blue and white color scheme to evoke a sense of calm and crea
 
 The primary font is **Gill Sans**, with fallback fonts for compatibility.  
 
-### Wireframes  
-
-The initial wireframe for the website can be found below:  
-![Wireframe](assets/images/screenshots/wireframe.jpg)  
-
 ---
 
 ## Features  
@@ -84,9 +79,10 @@ The initial wireframe for the website can be found below:
 
 - Fully responsive design for all devices.
 
-## Our Original Mockup
+### Wireframes  
 
-![5 Planes Mockup](assets/images/Wireframe.jpg)
+The initial wireframe for the website can be found below:  
+![Wireframe](assets/images/screenshots/wireframe.jpg)  
 
 ## Responsive design
 
