@@ -158,7 +158,8 @@ The initial wireframe for the website can be found below:
 
 - **HTML**: Validated using [W3C Markup Validator](https://validator.w3.org/).  
 - **CSS**: Validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
-- Screenshots of validation results are included in the project folder.  
+- Screenshots of validation results are included in the projectscreenshots folder.  
+
 
 ---
 
@@ -166,6 +167,10 @@ The initial wireframe for the website can be found below:
 
 - Tested with Lighthouse in Chrome DevTools to ensure good accessibility scores.  
 - Ensured proper color contrast and semantic HTML for screen readers.  
+| Test        | Proof                                                                | Pass/Fail |
+|-------------------|-------------------------------------------------------------------------|-----------|
+| W3C Markup Validator    | assets/images/screenshots/index-html-wc3test.jpg               | Pass      |
+| W3C CSS Validator | assets/images/screenshots/w3c-css-validator.jpg               | Pass      |
 
 ---
 
@@ -180,7 +185,6 @@ The initial wireframe for the website can be found below:
 | Mozilla Firefox   | Scrollbar is visible even though it should be hidden. No major issues. | Pass      |
 | Microsoft Edge    | No appearance, responsiveness, or functionality issues.               | Pass      |
 
-**Comments**: The visible scrollbar in Mozilla Firefox does not significantly affect the appearance or functionality, so it was not addressed.  
 
 ---
 
@@ -194,8 +198,6 @@ The initial wireframe for the website can be found below:
 | iPad Pro 10.5"        | No appearance, responsiveness, or functionality issues.               | Pass      |
 | iPhone XR             | No appearance, responsiveness, or functionality issues.               | Pass      |
 | iPhone 7              | No appearance, responsiveness, or functionality issues.               | Pass      |
-
-**Comments**: On older devices (e.g., iPhone 4/3), the landscape block mode is activated due to small screen sizes. This issue was not addressed due to time constraints and the age of the devices.  
 
 ---
 
