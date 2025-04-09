@@ -2,10 +2,6 @@
 
 ## The Origami of Flight  
 
-## Our Original Mockup
-
-![5 Planes Mockup](assets/images/Wireframe.jpg)
-
 5 Planes is a website dedicated to the art and science of paper airplanes. It serves as a hub for enthusiasts of all ages, offering resources, tutorials, and a platform to connect with like-minded individuals. Whether you're a beginner learning your first folds or an expert aiming for record-breaking flights, 5 Planes is the perfect place to start your journey.  
 
 Visit the deployed website [here](https://mcbonuss.github.io/5-Planes/).  
@@ -88,6 +84,10 @@ The initial wireframe for the website can be found below:
 
 - Fully responsive design for all devices.
 
+## Our Original Mockup
+
+![5 Planes Mockup](assets/images/Wireframe.jpg)
+
 ## Responsive design
 
 ![am-iresponsive](assets/images/screenshots/am-i-responsive-5planes.jpg)
@@ -160,7 +160,6 @@ The initial wireframe for the website can be found below:
 - **CSS**: Validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
 - Screenshots of validation results are included in the projectscreenshots folder.  
 
-
 ---
 
 ### Accessibility  
@@ -184,7 +183,6 @@ The initial wireframe for the website can be found below:
 | Safari            | No appearance, responsiveness, or functionality issues.               | Pass      |
 | Mozilla Firefox   | Scrollbar is visible even though it should be hidden. No major issues. | Pass      |
 | Microsoft Edge    | No appearance, responsiveness, or functionality issues.               | Pass      |
-
 
 ---
 
@@ -211,26 +209,27 @@ The initial wireframe for the website can be found below:
 | Social Links             | Open the specific website on a new tab.                               | Pass      |
 | Footer                   | Displays correctly on all pages with functional links.                | Pass      |
 
-##### Landing Page  
+##### Landing Page Testing
 
 | Feature                  | Outcome                                                                 | Pass/Fail |
 |--------------------------|-------------------------------------------------------------------------|-----------|
 | Featured Video           | Video loads and plays correctly.                                       | Pass      |
 | Upcoming Events Section  | Displays accurate event details with proper formatting.                | Pass      |
 
-##### Club Finder Page  
+##### Club Finder Page Testing
 
 | Feature                  | Outcome                                                                 | Pass/Fail |
 |--------------------------|-------------------------------------------------------------------------|-----------|
 | Club Grid Layout         | Displays clubs in a visually appealing grid format.                    | Pass      |
 | Email Links              | Open the user's default email client with the correct recipient.       | Pass      |
 
-##### Newsletter Signup Page  
+##### Newsletter Signup Page Testing
 
 | Feature                  | Outcome                                                                 | Pass/Fail |
 |--------------------------|-------------------------------------------------------------------------|-----------|
 | Signup Form              | Requires all fields to be filled in the correct format before submission. | Pass      |
 | Form Validation          | Displays error messages for invalid inputs.                            | Pass      |
+| Form Validation          | returns first and last name as well as email.                            | Pass      |
 
 ---
 
@@ -360,7 +359,7 @@ For further assistance, feel free to contact me via the details provided in the 
 
 ### Content  
 
-- All content was written by the developer.  
+- All content was written by RM, Code Institute, Bootstrap, Et al.  
 
 ### Media  
 
@@ -375,7 +374,8 @@ For further assistance, feel free to contact me via the details provided in the 
 ## Acknowledgements  
 
 - Code Institute for project guidance.  
-- Family and friends for feedback and support.  
+- Family and friends for feedback and support.
+- Sheralyn for being supportive and keeping me motivated.
 
 ---
 
