@@ -113,20 +113,35 @@ The initial wireframe for the website can be found below:
 
 ### Languages Used  
 
-- **HTML5**: For structuring content.  
-- **CSS3**: For styling and layout.  
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)**: For structuring content.  
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)**: For styling and layout.  
 
 ### Frameworks, Libraries, and Programs Used  
 
-- **Bootstrap**: For responsive design and layout.  
-- **Font Awesome**: For social media icons.  
-- **Lightbox2**: For the gallery feature.  
-- **Google Fonts**: For typography.  
-- **GitHub Pages**: For deployment.  
+- **[Bootstrap](https://getbootstrap.com/)**: For responsive design and layout.  
+- **[Font Awesome](https://fontawesome.com/)**: For social media icons.  
+- **[Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)**: For the gallery feature.  
+- **[Google Fonts](https://fonts.google.com/)**: For typography.  
+- **[GitHub Pages](https://pages.github.com/)**: For deployment.  
 
 ---
 
-## Testing  
+## Testing
+
+#
+
+### Testing Technologies Used in 5 Planes
+
+The following tools and technologies were used to test the project:  
+
+- **[W3C Markup Validator](https://validator.w3.org/)**: Used to validate the HTML code for syntax errors and best practices.  
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**: Used to validate the CSS code for syntax errors and ensure proper styling practices.  
+- **[Lighthouse (Chrome DevTools)](https://developers.google.com/web/tools/lighthouse/)**: Used to test the website's performance, accessibility, best practices, and SEO.  
+- **[Responsive Design Checker](https://www.responsivedesignchecker.com/)**: Used to test the responsiveness of the website on various screen sizes and devices.  
+- **Manual Testing**: Conducted across multiple browsers and devices to ensure functionality and responsiveness.  
+- **Email Client Testing**: Tested email links to ensure they open the user's default email client with the correct recipient.  
+
+---
 
 ### Testing User Stories  
 
