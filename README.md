@@ -6,8 +6,6 @@
 
 ![5 Planes Mockup](assets/images/Wireframe.jpg)
 
-
-
 5 Planes is a website dedicated to the art and science of paper airplanes. It serves as a hub for enthusiasts of all ages, offering resources, tutorials, and a platform to connect with like-minded individuals. Whether you're a beginner learning your first folds or an expert aiming for record-breaking flights, 5 Planes is the perfect place to start your journey.  
 
 Visit the deployed website [here](https://mcbonuss.github.io/5-Planes/).  
@@ -80,7 +78,7 @@ The primary font is **Gill Sans**, with fallback fonts for compatibility.
 ### Wireframes  
 
 The initial wireframe for the website can be found below:  
-!Wireframe  
+![Wireframe](assets/images/screenshots/wireframe.jpg)  
 
 ---
 
@@ -88,21 +86,11 @@ The initial wireframe for the website can be found below:
 
 ### General  
 
-- Fully responsive design for all devices. 
+- Fully responsive design for all devices.
 
 ## Responsive design
 
-### Full Size
-
-![Full Size Responsive](assets/images/screenshots/full-size.jpg)
-
-### Tablet
-
-![Tablet](assets/images/screenshots/tablet.jpg)
-
-### Mobile
-
-![Mobile Phone](assets/images/screenshots/mobile-phone.jpg) 
+![am-iresponsive](assets/images/screenshots/am-i-responsive-5planes.jpg)
 
 - Consistent navigation bar across all pages.  
 - Footer with social media links and copyright information.  
@@ -147,50 +135,222 @@ The initial wireframe for the website can be found below:
 ### Testing User Stories  
 
 1. **Learn how to fold paper airplanes**:  
-   - Tutorials are accessible on the landing page.  
+   - Tutorials are accessible on the landing page and provide clear instructions.  
+   - Links to additional resources are functional.  
+
 2. **Find local clubs**:  
-   - Club Finder page lists clubs with contact details.  
+   - Club Finder page lists clubs with accurate contact details.  
+   - Email links open the user's default email client.  
+
 3. **Sign up for the newsletter**:  
-   - Newsletter Signup page includes a functional form.  
+   - Newsletter Signup page includes a functional form with required fields.  
+   - Form validation ensures proper email format before submission.  
+
 4. **View upcoming events**:  
-   - Events are displayed on the landing page.  
+   - Events are displayed on the landing page with accurate dates and descriptions.  
+
 5. **Responsive design**:  
-   - Tested on multiple devices and screen sizes.  
+   - Tested on multiple devices and screen sizes to ensure proper layout and functionality.  
+
+---
 
 ### Code Validation  
 
-- HTML validated using [W3C Markup Validator](https://validator.w3.org/).  
-- CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
-- Screen shots of the test outcomes. 
+- **HTML**: Validated using [W3C Markup Validator](https://validator.w3.org/).  
+- **CSS**: Validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
+- Screenshots of validation results are included in the project folder.  
+
+---
 
 ### Accessibility  
 
 - Tested with Lighthouse in Chrome DevTools to ensure good accessibility scores.  
+- Ensured proper color contrast and semantic HTML for screen readers.  
+
+---
 
 ### Manual Testing  
 
-- Navigation links tested for functionality. 
-- How did I test? 
-- Did the social media links go to the repective sites 
-- Forms tested for validation and submission.  
-- Fillin first name
-- fill in second name 
-- fill in email
-- Were the fields required? 
+#### Browser Compatibility  
 
-- Images and videos tested for responsiveness.
-- 
+| Browser           | Outcome                                                                 | Pass/Fail |
+|-------------------|-------------------------------------------------------------------------|-----------|
+| Google Chrome     | No appearance, responsiveness, or functionality issues.               | Pass      |
+| Safari            | No appearance, responsiveness, or functionality issues.               | Pass      |
+| Mozilla Firefox   | Scrollbar is visible even though it should be hidden. No major issues. | Pass      |
+| Microsoft Edge    | No appearance, responsiveness, or functionality issues.               | Pass      |
+
+**Comments**: The visible scrollbar in Mozilla Firefox does not significantly affect the appearance or functionality, so it was not addressed.  
+
+---
+
+#### Device Compatibility  
+
+| Device                | Outcome                                                                 | Pass/Fail |
+|-----------------------|-------------------------------------------------------------------------|-----------|
+| MacBook Pro 15"       | No appearance, responsiveness, or functionality issues.               | Pass      |
+| Dell Latitude 5300    | No appearance, responsiveness, or functionality issues.               | Pass      |
+| iPad Pro 12.9"        | No appearance, responsiveness, or functionality issues.               | Pass      |
+| iPad Pro 10.5"        | No appearance, responsiveness, or functionality issues.               | Pass      |
+| iPhone XR             | No appearance, responsiveness, or functionality issues.               | Pass      |
+| iPhone 7              | No appearance, responsiveness, or functionality issues.               | Pass      |
+
+**Comments**: On older devices (e.g., iPhone 4/3), the landscape block mode is activated due to small screen sizes. This issue was not addressed due to time constraints and the age of the devices.  
+
+---
+
+#### Common Elements Testing  
+
+##### Site-wide
+
+| Feature                  | Outcome                                                                 | Pass/Fail |
+|--------------------------|-------------------------------------------------------------------------|-----------|
+| Navigation Bar           | Hover effect and links are working as expected.                       | Pass      |
+| Social Links             | Open the specific website on a new tab.                               | Pass      |
+| Footer                   | Displays correctly on all pages with functional links.                | Pass      |
+
+##### Landing Page  
+
+| Feature                  | Outcome                                                                 | Pass/Fail |
+|--------------------------|-------------------------------------------------------------------------|-----------|
+| Featured Video           | Video loads and plays correctly.                                       | Pass      |
+| Upcoming Events Section  | Displays accurate event details with proper formatting.                | Pass      |
+
+##### Club Finder Page  
+
+| Feature                  | Outcome                                                                 | Pass/Fail |
+|--------------------------|-------------------------------------------------------------------------|-----------|
+| Club Grid Layout         | Displays clubs in a visually appealing grid format.                    | Pass      |
+| Email Links              | Open the user's default email client with the correct recipient.       | Pass      |
+
+##### Newsletter Signup Page  
+
+| Feature                  | Outcome                                                                 | Pass/Fail |
+|--------------------------|-------------------------------------------------------------------------|-----------|
+| Signup Form              | Requires all fields to be filled in the correct format before submission. | Pass      |
+| Form Validation          | Displays error messages for invalid inputs.                            | Pass      |
+
+---
+
+#### 404 Error Page  
+
+| Feature                  | Outcome                                                                 | Pass/Fail |
+|--------------------------|-------------------------------------------------------------------------|-----------|
+| 404 Error Page           | Entering an incorrect URL redirects to the 404 error page.             | Pass      |
+| Back to Home Button      | Button redirects to the home page as expected.                         | Pass      |
+
+---
+
+### Comments  
+
+- All features were tested thoroughly across multiple devices and browsers.  
+- Minor issues, such as the visible scrollbar in Firefox, were noted but not addressed due to their negligible impact on user experience.  
+- The website is fully functional and responsive, meeting the project goals and user stories.
 
 ---
 
 ## Deployment  
 
-The project was deployed using GitHub Pages:  
+This website was developed using **Visual Studio Code**, committed and pushed to **GitHub** using the terminal, and deployed to **GitHub Pages** from the GitHub repository.
 
-1. Push the project to a GitHub repository.  
-2. Go to the repository's settings.  
-3. Under the "Pages" section, select the branch (e.g., `main`) and folder (e.g., `/root`) to deploy.  
-4. Save the settings, and the website will be available at `https://<your-username>.github.io/<repository-name>`.  
+### Deploying on GitHub Pages  
+
+To deploy this website to GitHub Pages from its GitHub repository, follow these steps:
+
+1. **Log into GitHub**:  
+   - Ensure you are logged into your GitHub account.
+
+2. **Navigate to the Repository**:  
+   - Go to the repository for this project: [5-Planes Repository](https://github.com/mcbonuss/5-Planes).
+
+3. **Access the Settings**:  
+   - At the top-right corner of the repository page, click on the **Settings** tab.
+
+4. **Open the Pages Section**:  
+   - On the left-hand side of the page, under **Code and automation**, click on **Pages**.
+
+5. **Configure Deployment Source**:  
+   - Under the **Build and deployment** section, locate the **Source** dropdown menu.  
+   - Select **Deploy from a branch**.
+
+6. **Select the Branch**:  
+   - Under the **Branch** dropdown, select the branch you want to deploy (e.g., `main`).  
+   - Ensure the folder is set to `/root`.
+
+7. **Save and Deploy**:  
+   - Click the **Save** button.  
+
+8. **Wait for Deployment**:  
+   - After a few moments, refresh the page. A link to your deployed website will appear in the **GitHub Pages** section.  
+
+The live website is now available at: [https://mcbonuss.github.io/5-Planes/](https://mcbonuss.github.io/5-Planes/).
+
+---
+
+### Forking the Repository  
+
+Forking a GitHub repository creates a copy of the original repository in your GitHub account. This allows you to view or make changes without affecting the original repository.  
+
+To fork this repository:  
+
+1. **Log into GitHub**:  
+   - Ensure you are logged into your GitHub account.  
+
+2. **Locate the Repository**:  
+   - Navigate to the [5-Planes Repository](https://github.com/mcbonuss/5-Planes).  
+
+3. **Fork the Repository**:  
+   - At the top-right corner of the repository page, click the **Fork** button.  
+
+You now have a copy of the original repository in your GitHub account.  
+
+---
+
+### Creating a Clone  
+
+To run this project locally, you can clone the repository to your local machine. Follow these steps:  
+
+1. **Log into GitHub**:  
+   - Ensure you are logged into your GitHub account.  
+
+2. **Locate the Repository**:  
+   - Navigate to the [5-Planes Repository](https://github.com/mcbonuss/5-Planes).  
+
+3. **Copy the Clone URL**:  
+   - Click the green **Code** button and copy the HTTPS clone URL (e.g., `https://github.com/mcbonuss/5-Planes.git`).  
+
+4. **Open Your IDE**:  
+   - Open your preferred IDE (e.g., Visual Studio Code).  
+
+5. **Open the Terminal**:  
+   - In your IDE, open the terminal.  
+
+6. **Navigate to Your Desired Directory**:  
+   - Use the `cd` command to navigate to the directory where you want to clone the project.  
+
+7. **Clone the Repository**:  
+   - Run the following command:  
+
+     ```bash
+     git clone https://github.com/mcbonuss/5-Planes.git
+     ```  
+
+8. **Open the Project**:  
+   - Once cloned, open the project folder in your IDE.  
+
+9. **Run the Project**:  
+   - Open the `index.html` file in your browser to view the project locally.  
+
+---
+
+### Troubleshooting  
+
+If you encounter any issues during deployment or local setup, refer to the following resources:  
+
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)  
+- [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)  
+
+For further assistance, feel free to contact me via the details provided in the [Contacts](#contacts) section.
 
 ---
 
@@ -232,17 +392,5 @@ For any questions or feedback, please contact:
 
 - **Name**: Russ M  
 - **Email**: <rmckeith@gmail.com>  
-- **GitHub**: [https://github.com/mcbonuss](https://github.com/mcbonuss) 
+- **GitHub**: [https://github.com/mcbonuss](https://github.com/mcbonuss)
 - **GitHub**: Forking the repository  
-
----
-
-### Key Improvements Made
-
-1. Added a **Future Enhancements** section to show forward-thinking.
-2. Improved the **Testing** section with more details and links to Lighthouse results.
-3. Enhanced the **Features** section with more descriptive content.
-4. Organized the **Credits** and **Acknowledgements** sections for clarity.
-5. Ensured the README follows a professional structure with clear headings and subheadings.
-
-
